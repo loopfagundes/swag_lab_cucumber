@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="2">
+    <test name = "Teste de fluxo de comprar os produtos.">
+        <classes>
+            <class name="com.saucedemo.testcases.CompraComSucessoTest">
+                <methods>
+                    <include name="compraComSucessoTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
