@@ -1,13 +1,13 @@
 package cucumber;
 
-import Runners.RunCucumber;
+import Runners.RunCucumberTest;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
 
-public class StepCucumber extends RunCucumber {
+public class StepCucumber extends RunCucumberTest {
 
     private WebDriver driver;
     HomePage homePage = new HomePage(driver);
